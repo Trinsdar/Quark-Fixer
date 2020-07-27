@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "quark_fixer.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "quark_fixer.refmap.json",
+  "mixins": [
+    "MixinBLMHandler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
